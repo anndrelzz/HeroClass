@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(152, 167, 119);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.hero {
+    display: block;
+    text-align: center;
+}
+
+.classe ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+}
+
+.classe button {
+    color: black;
+    background-color: rgb(108, 187, 163);
+    border-color: transparent;
+    display: flex;
+    margin: 0 auto;
+}
+.classe button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(11, 31, 25);
+    border-color: transparent;
+    transition: 0.3s;
+}
+
+.classe p {
+    display: block;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.herolevel {
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+
+}

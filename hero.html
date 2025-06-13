@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="hero.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Herói</title>
+</head>
+<body>
+  <h1>Bem-vindo ao jogo!</h1>
+
+  <main>
+    <div class="hero">
+        <label for="nickname">Digite seu nickname:</label>
+        <input type="text" id="nickname" />
+        <button onclick="receberNickname()">Enviar</button>
+    <p id="mensagem"></p>
+    
+    </div>
+    <div class="classe">
+        <ul>
+            <li>
+                <input type="radio" name="classe" value="Mago" id="mago">
+                <label for="mago">Mago</label>
+            </li>
+            <li>
+                <input type="radio" name="classe" value="Bruxo" id="bruxo">
+                <label for="bruxo">Bruxo</label>
+            </li>
+            <li>
+                <input type="radio" name="classe" value="Guerreiro" id="guerreiro">
+                <label for="guerreiro">Guerreiro</label>
+            </li>
+            <li>
+                <input type="radio" name="classe" value="Barbaro" id="barbaro">
+                <label for="barbaro">Barbaro</label>
+            </li>
+            <li>
+                <input type="radio" name="classe" value="Monge" id="monge">
+                <label for="monge">Monge</label>
+            </li>
+        </ul>
+        <button onclick="receberClasse()">Enviar</button>
+        <p id="classmessage"></p>
+    </div>
+    <div class="herolevel">
+        <label for="xp">Digite seu XP total:</label>
+        <input type="number" id="xp" />
+        <button onclick="receberXp()">Enviar</button>
+        <p id="levelmessage"></p>
+    </div>
+  </main>
+  
+</body>
+</html>
